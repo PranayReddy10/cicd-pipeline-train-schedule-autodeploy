@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script 
                 {
-checkout([$class: 'GitSCM', branches: [[name: 'master']],  userRemoteConfigs: [[url: 'https://github.com/PranayReddy10/cicd-pipeline-train-schedule-autodeploy.gits']]] 
+checkout([$class: 'GitSCM', branches: [[name: 'master']],  userRemoteConfigs: [[url: 'https://github.com/PranayReddy10/cicd-pipeline-train-schedule-autodeploy.git']]] 
 }
             }				
         }
